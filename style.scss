@@ -287,3 +287,11 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+/* --- 가독성을 위한 여백 추가 코드 --- */
+#main {
+  max-width: 800px; /* 글 내용의 최대 넓이를 800px로 제한합니다. 원하시면 숫자를 조절하세요. */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px; /* 좌우에 약간의 추가 여백을 줍니다. */
+  padding-right: 15px;
+}
