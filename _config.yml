@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name:알아두면 돈이 되는 부동산 정보 
+name: 알아두면 돈이 되는 부동산 정보
 
 # Short bio or description (displayed in the header)
-description:부동산 초보자를 위한 실거래가, 시세, 필수 법률 상식
+description: 부동산 초보자를 위한 실거래가, 시세, 필수 법률 상식
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -16,8 +16,21 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 #
 
 # Includes an icon in the footer for each username you enter
+# 이 부분은 비워두어야 합니다. 전화번호 링크는 _layouts/default.html 파일에 있어야 합니다.
 footer-links:
- <p><a href="tel:010-9048-0767">상위광고 010 9048 0767</a></p>
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: 
+  instagram:
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -29,7 +42,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: "https://jeongbo-web.github.io" # 이 부분이 꼭 필요합니다.
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -61,7 +74,8 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+# gems: 대신 최신 방식인 plugins: 를 사용하는 것이 좋습니다.
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
