@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "강남줄리아나나이트: 가격부터 예약까지 완벽 분석"
-permalink: /gangnam-juliana-night/
+permalink: /gangnam/
 description: "2025년 최신 강남줄리아나나이트 방문을 위한 기밀 정보 파일. 실패 없는 예약을 위한 양이사 연락처, 정확한 가격, 성공을 위한 필승 전략을 브리핑합니다."
 keywords: "강남줄리아나나이트, 강남줄리아나 가격, 강남줄리아나 예약, 줄리아나 양이사, 강남 나이트 추천"
 image: "강남줄리아나나이트양이사.jpg"
